@@ -1,0 +1,14 @@
+Scripts
+Lib
+Include
+src/logs/**
+.vscode/launch.json
+.vscode/settings.json
+__pycache__/main.cpython-310.pyc
+__pycache__/Utils.cpython-310.pyc
+postgresql/**
+notebooks/.*
+notebooks/checkpoint*
+notebooks/*.json
+hadoop/**
+__pycache__

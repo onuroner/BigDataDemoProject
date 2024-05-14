@@ -1,0 +1,34 @@
+{
+  "fields": [
+    {
+      "name": "user_id",
+      "type": "int"
+    },
+    {
+      "name": "session_id",
+      "type": "int"
+    },
+    {
+      "name": "event_name",
+      "type": "string"
+    },
+    {
+      "name": "timestamp",
+      "type": "string"
+    },
+    {
+      "name": "product_id",
+      "type": "int"
+    },
+    {
+      "name": "price",
+      "type": "double"
+    },
+    {
+      "name": "discount",
+      "type": "double"
+    }
+  ],
+  "name": "SendEventModel",
+  "type": "record"
+}

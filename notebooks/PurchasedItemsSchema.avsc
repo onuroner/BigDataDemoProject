@@ -1,0 +1,55 @@
+{
+  "fields": [
+    {
+      "name": "sessionId",
+      "type": "int"
+    },
+    {
+      "name": "timestamp",
+      "type": "string"
+    },
+    {
+      "name": "userId",
+      "type": "int"
+    },
+    {
+      "name": "totalPrice",
+      "type": "double"
+    },
+    {
+      "name": "orderId",
+      "type": "int"
+    },
+    {
+      "name": "products",
+      "type": {
+        "items": {
+          "fields": [
+            {
+              "name": "product_id",
+              "type": "int"
+            },
+            {
+              "name": "item_count",
+              "type": "int"
+            },
+            {
+              "name": "item_price",
+              "type": "double"
+            },
+            {
+              "name": "item_discount",
+              "type": "double"
+            }
+          ],
+          "name": "products",
+          "namespace": "Record",
+          "type": "record"
+        },
+        "type": "array"
+      }
+    }
+  ],
+  "name": "PurchasedItemsSchema",
+  "type": "record"
+}
